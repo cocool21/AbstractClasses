@@ -4,28 +4,17 @@ public Vehicle(){
 }
 
 public String Run() {
-   return "A vehicle cannot fly.";
+   return "A vehicle can run.";
 }
 
 public String Stop() {
-    return "A vehicle cannot fly.";
+    return "A vehicle can stop.";
 }
 
 public String Accelerate() {
-    return "A vehicle cannot fly.";
+    return "A vehicle can accelerate.";
 }
 
-public String cantFly() {
-    return "A vehicle cannot fly.";
-}
-
-public String centFloat() {
-    return "A vehicle cannot float.";
-}
-
-public String cantHaul() {
-    return "A vehicle cannot haul 10 tons of gravel.";
-}
 
 abstract String NoIdeaWhatThisFor(); //an abstract method
 
